@@ -1,2 +1,3 @@
-var favTransport = ["BMW", "Lamboghini", "Audi"];
-favTransport.map(function (items) { return console.log("I Would Like to own a ".concat(items, ",")); });
+let favTransport = ["BMW", "Lamboghini", "Audi"];
+favTransport.map((items) => console.log(`I Would Like to own a ${items},`));
+export {};

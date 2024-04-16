@@ -1,2 +1,3 @@
-var myName = "Mehwish";
-console.log("Hello ".concat(myName, ", would you like to learn some Python today"));
+let myName = "Mehwish";
+console.log(`Hello ${myName}, would you like to learn some Python today`);
+export {};
