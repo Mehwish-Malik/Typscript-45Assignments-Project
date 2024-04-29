@@ -1,4 +1,4 @@
-var guestList = ["Asma", "Hafsa", "Muniza", "Sana"];
+let guestList = ["Asma", "Hafsa", "Muniza", "Sana"];
 console.log("Great News! We found a Bigger Dinner Table!!");
 // unshift()
 guestList.unshift("Sadaf");
@@ -6,6 +6,7 @@ guestList.unshift("Sadaf");
 guestList.splice(Math.floor(guestList.length / 2), 0, "Maham");
 //Push
 guestList.push("Areesha");
-guestList.forEach(function (guest) {
-    console.log(("Dear ".concat(guest, ", You All Re Invited For Dinner!")));
+guestList.forEach(guest => {
+    console.log((`Dear ${guest}, You All Re Invited For Dinner!`));
 });
+export {};

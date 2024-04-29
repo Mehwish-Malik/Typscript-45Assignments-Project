@@ -10,8 +10,8 @@ while (guestList.length > 2) {
 }
     
 }
-//Print a message to each of the two people still on your list, 
-//letting them know they’re still invited.
+// Print a message to each of the two people still on your list, 
+// letting them know they are still invited.
 guestList.forEach(guest => {
     console.log(`Dear ${guest} You are still invited for the Dinner!`);
     
