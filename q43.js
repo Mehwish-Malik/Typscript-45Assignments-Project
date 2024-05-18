@@ -15,6 +15,6 @@ let copy_Great_Magicians = make_Great(copy_Magicians);
 console.log("Its an original Array");
 show_Magician(magicians_Name);
 // Copied
-console.log("\nIt is copied Array\n");
+console.log("\nIt is Copied Array\n");
 show_Magician(copy_Great_Magicians);
 export {};

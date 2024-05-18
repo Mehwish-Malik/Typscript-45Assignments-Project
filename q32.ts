@@ -1,7 +1,7 @@
 // Array of current users
 let current_users:string[] = ["Ayan","Anaya","fariya", "Daisie","Harry"]
 // Array of new users
-let new_Users : string[]= ["anaya", "Burak Deniz","Harry", "Mahad", "Zunaira"]
+let new_Users : string[]= ["Anaya", "Burak Deniz","Harry", "Mahad", "Zunaira"]
 // loop through new user to check for usernames avaibility
 new_Users.forEach(new_One_User => {
     let our_Condition = current_users .some(current_One_User => current_One_User.toLowerCase() === new_One_User.toLowerCase())

@@ -9,7 +9,7 @@ guestList.splice(Math.floor(guestList.length /2),0, "Maham");
 //Push
 guestList.push("Areesha");
 guestList.forEach(guest =>{
-    console.log((`Dear ${guest}, You All Re Invited For Dinner!`));
+    console.log((`Dear ${guest}, You All Are Invited For Dinner!`));
     
 });
 
